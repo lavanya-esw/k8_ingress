@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:     
   name: app1
-  lables:
+  labels:
     purpose: ingress-demo
     project: roboshop
     app: app1
